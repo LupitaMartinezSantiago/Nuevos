@@ -1,4 +1,4 @@
-#Código Python - Ejemplo de Menu
+
 def opcion1():
     print("Opción 1 seleccionada")
  
