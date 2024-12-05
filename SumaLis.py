@@ -1,4 +1,4 @@
-# Retornar la suma de los elementos impares de una lista.
+
  
 import random
  
