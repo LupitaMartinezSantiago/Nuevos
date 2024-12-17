@@ -1,4 +1,4 @@
-# Retornar la suma de los elementos impares de una lista.
+
  
 import random
  
@@ -49,7 +49,7 @@ def leer_lista():
         lista.append(random.randint(0, 5))
         i += 1
     return lista
- 
+# Se imprimira la lista 
 A = leer_lista()
 imprimir_lista(A, "A")
 print("Suma =", sumar_impares_lista(A))
