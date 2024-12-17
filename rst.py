@@ -21,7 +21,7 @@ def es_triangulo_pitagoras(a, b, c):
 a = float(input("Ingrese el primer lado: "))
 b = float(input("Ingrese el segundo lado: "))
 c = float(input("Ingrese el tercer lado: "))
- 
+ #Imprimira si es un triangulo o no de pitagoras 
 if es_triangulo_pitagoras(a, b, c):
     print("¡Es un triángulo de Pitágoras!")
 else:
