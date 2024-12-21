@@ -1,4 +1,4 @@
-#Código Python - Ejemplo de Matrices
+
 def crear_matriz(filas, columnas):
     matriz = []
     for i in range(filas):
