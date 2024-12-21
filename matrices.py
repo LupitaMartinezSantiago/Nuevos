@@ -1,4 +1,4 @@
-
+#Código Python - Ejemplo de Matrices
 def crear_matriz(filas, columnas):
     matriz = []
     for i in range(filas):
@@ -35,7 +35,7 @@ matriz1 = crear_matriz(filas, columnas)
  
 print("Ingrese la segunda matriz:")
 matriz2 = crear_matriz(filas, columnas)
- # Se imprimira la matriz
+ 
 print("Matriz 1:")
 imprimir_matriz(matriz1)
  
