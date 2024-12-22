@@ -1,4 +1,4 @@
-# Simulación de banco
+
 saldo = 0
 
 def ver_saldo():
