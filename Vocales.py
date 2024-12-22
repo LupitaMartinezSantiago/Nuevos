@@ -1,5 +1,6 @@
+# Convertir el texto a minúsculas para contar sin distinción de mayúsculas/minúsculas
 def contar_vocales_consonantes(texto):
-    texto = texto.lower()  # Convertir el texto a minúsculas para contar sin distinción de mayúsculas/minúsculas
+    texto = texto.lower()  
     vocales = "aeiou"
     consonantes = "bcdfghjklmnpqrstvwxyz"
     contador_vocales = 0
