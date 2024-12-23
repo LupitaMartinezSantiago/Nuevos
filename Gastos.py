@@ -1,4 +1,4 @@
-# Calculadora de gastos
+
 gastos = {}
 
 def agregar_gasto():
