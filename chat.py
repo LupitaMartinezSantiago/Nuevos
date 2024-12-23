@@ -1,4 +1,4 @@
-# Chatbot básico
+
 def chatbot():
     respuestas = {
         "hola": "¡Hola! ¿En qué puedo ayudarte?",
