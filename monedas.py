@@ -1,4 +1,4 @@
-# Conversor de monedas
+
 tasas_cambio = {
     "usd_to_eur": 0.92,
     "usd_to_mxn": 17.5,
