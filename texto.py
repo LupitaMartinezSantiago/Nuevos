@@ -1,4 +1,4 @@
-# Analizador de texto
+
 def analizar_texto():
     archivo = input("Escribe el nombre del archivo a analizar (con extensión): ")
     try:
