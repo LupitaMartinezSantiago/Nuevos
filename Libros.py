@@ -1,4 +1,4 @@
-# Gestor de libros
+
 libros = []
 
 def agregar_libro():
