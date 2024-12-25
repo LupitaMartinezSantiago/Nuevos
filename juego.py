@@ -1,3 +1,4 @@
+°# Juego del orcado con palabras de programacion
 import random
 
 def elegir_palabra():
