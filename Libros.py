@@ -7,7 +7,7 @@ def agregar_libro():
     año = input("Año de publicación: ")
     libros.append({"titulo": titulo, "autor": autor, "año": año})
     print("Libro registrado exitosamente.")
-
+# con el titulo del libro registrado
 def buscar_libro():
     titulo = input("Escribe el título del libro a buscar: ")
     encontrados = [l for l in libros if l['titulo'].lower() == titulo.lower()]
@@ -17,7 +17,7 @@ def buscar_libro():
             print(f"Título: {l['titulo']}, Autor: {l['autor']}, Año: {l['año']}")
     else:
         print("No se encontró ningún libro con ese título.")
-
+# Mostrara los libros que esten registrados
 def mostrar_libros():
     if not libros:
         print("No hay libros registrados.")
@@ -25,7 +25,7 @@ def mostrar_libros():
         print("\nLista de libros:")
         for l in libros:
             print(f"Título: {l['titulo']}, Autor: {l['autor']}, Año: {l['año']}")
-
+# Obciones de  busqueda 
 while True:
     print("\nGestor de Libros")
     print("1. Agregar libro")
