@@ -17,7 +17,7 @@ def convertir_longitud():
             print("Opción no válida.")
     except ValueError:
         print("Por favor, ingresa un número válido.")
-
+# Opcion  para convertir unidades
 def convertir_peso():
     print("\n--- Conversión de Peso ---")
     print("1. Kilogramos a Libras")
@@ -49,7 +49,7 @@ def convertir_temperatura():
             print("Opción no válida.")
     except ValueError:
         print("Por favor, ingresa un número válido.")
-
+#Mostrar la lista que se convirtio
 while True:
     print("\n--- Conversor de Unidades ---")
     print("1. Longitud")
